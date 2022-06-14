@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "calculadora-madeira",
-    "slug": "calculadora-madeira",
+    "name": "Timber Calc",
+    "slug": "timber-calc",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/color-log.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/color-log.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/color-log.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.leonardobarcelos.calculadoramadeira"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/color-log.png"
+    },
+    "description": ""
   }
 }
